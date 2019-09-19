@@ -1,0 +1,150 @@
+body{
+    background: yellow url("https://media2.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif");
+    background-size: 95%;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 27%;
+
+}
+
+#heading{
+
+
+}
+
+h2{
+    color: white;
+    border-radius: 8px;
+    background: gray;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Manjari Bold", serif;
+    display: grid;
+    background-color: yellow;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#navigation{
+    display: block;
+    text-align: center;
+    background: yellow;
+    border-radius: 8px;
+    word-spacing: 15px;
+}
+
+#navigation a:hover{
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    color: red;
+
+}
+
+
+#about_me{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 5%;
+    background: yellow;
+
+}
+
+#pictures{
+    display: inline-block;
+    background: yellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+
+form{
+    background: yellow;
+    text-align: center;
+}
+
+#message{
+    float: bottom;
+}
+
+#topbutton{
+    border-radius: 8px;
+    width: 20%;
+    margin-left: 40%;
+}
+
+#status{
+    display: inline-block;
+    background: yellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+#contact{
+    display: grid;
+    float: bottom;
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.my_reflections{
+    display: block;
+    margin-top: 5%;
+    border-radius: 6px;
+    background: yellow;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+#screenshot{
+    margin-left: 10%;
+    background-color: yellow;
+}
+
+#resume{
+    border: black;
+    border-radius: 6px;
+    background: yellow;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+#my_profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audio_log{
+    background: yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    width: 30%;
+}
