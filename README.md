@@ -56,3 +56,6 @@ Make sure you include the following pages:
 - http://sorenromer.com/
 - https://www.clemsonwebdesign.com/
 - https://daneden.github.io/animate.css/
+
+### Kenn's Notes:
+You were close, but the page is very busy with a moving GIF background and large images with a lot of empty space. Also, resume is not visable, only available as a download.
