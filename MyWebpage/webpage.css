@@ -2,6 +2,7 @@ body{
     background: yellow url("https://media2.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif");
     background-size: 95%;
 }
+
 h1{
     text-align: center;
     background-color: yellow;
@@ -11,24 +12,33 @@ h1{
 
 }
 
-#heading{
-
-
+#full_stack{
+    text-align: center;
+    background-color: yellow;
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 27%;
+    font-size: larger;
+    font-weight: bold;
 }
 
 h2{
-    color: white;
+    color: yellow;
     border-radius: 8px;
-    background: gray;
+    background: black;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
 }
 
-p{
-    font-size: 20px;
-    font-family: "Manjari Bold", serif;
-    display: grid;
-    background-color: yellow;
+h3{
+    color: yellow;
+    background: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 8px;
     border-radius: 8px;
 }
 
@@ -61,15 +71,22 @@ p{
 
 }
 
-#pictures{
-    display: inline-block;
-    background: yellow;
+#pics{
+    display: grid;
     text-align: center;
-    font-weight: bolder;
-    font-size: large;
+    grid-template-columns: 50% 50%;
+    color: black;
+    background: yellow;
     border-radius: 8px;
-    width: 100%;
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: black;
+    border-radius: 8px;
     margin-bottom: 5%;
+    margin-left: 40%;
 }
 
 
@@ -83,10 +100,11 @@ form{
     float: bottom;
 }
 
-#topbutton{
+#top_button{
     border-radius: 8px;
-    width: 20%;
-    margin-left: 40%;
+    background: yellow;
+    width: 50%;
+    margin-left: 28%;
 }
 
 #status{
@@ -147,4 +165,22 @@ form{
     border-radius: 6px;
     padding: 5px;
     width: 30%;
+}
+.projects{
+    background: yellow;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#my_skills{
+    display: block;
+    background: yellow;
+    
+}
+#my_projects{
+    margin-bottom: 5px;
 }
